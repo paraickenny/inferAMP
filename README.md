@@ -3,4 +3,4 @@ Genome scale copy number inference from discrete reports of gene-level amplifica
 
 Web implementation at:
 
-http://kennylab.org/infercnv-query.html
+http://infercnv.org
