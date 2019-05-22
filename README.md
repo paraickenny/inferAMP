@@ -6,10 +6,10 @@ A working version of the web implementation is at http://infercnv.org
 Two directories are provided:
 
 web-implementation:
-python script with flask providing for a web based query page, and python. 
+python script with flask and associated web page into which queried genes can be entered. 
 The main script is in main.py.
+main.py returns responses via html output into the browser.
 Additional files are provided for use with the google app engine including app.yaml, requirements.txt.
-
 
 Command line implementation:
 inferCNVv2.py
