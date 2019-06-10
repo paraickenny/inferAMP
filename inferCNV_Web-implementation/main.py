@@ -43,7 +43,7 @@ def infercnv():
                 genome.append(coordinateswithcounter)
 
     weboutput = ""              #starts assembling a string which will return the results to browser in html format
-    weboutput += "<h1>InferCNV Results:</h1>"
+    weboutput += "<h1>InferAMP Results:</h1>"
 
     candidates = []
 
@@ -186,10 +186,10 @@ def infercnv():
             weboutput+= str("<a href=\"https://cancer.sanger.ac.uk/cosmic/gene/analysis?ln=" + p  + "\" target=\"_blank\">" + p +"</a>" + "&emsp;") # generates space-delimited list of gens with links to COSMIC
         weboutput += "<br>"
     weboutput += " </p> ---------------------------------------------------------------------------------------------------------------------------- <br>"
-    weboutput += "<br><br>InferCNV - a tool for inferring possible copy number changes using data from Foundation One NGS test reports. <br>"
+    weboutput += "<br><br>InferAMP - a tool for inferring possible copy number changes using data from Foundation One NGS test reports. <br>"
     weboutput += "Written by Paraic Kenny, PhD <br>"
-    weboutput += "Code available from: https://github.com/paraickenny/inferCNV <br>"
-    weboutput += "To run another analysis, click <a href=\"http://infercnv.org\"> HERE</a> <br>"
+    weboutput += "Code available from: https://github.com/paraickenny <br>"
+    weboutput += "To run another analysis, click <a href=\"http://inferamp.org\"> HERE</a> <br>"
     weboutput += "<h1> Research Use Only </h1>"
 
     return weboutput
