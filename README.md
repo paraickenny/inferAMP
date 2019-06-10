@@ -1,7 +1,9 @@
-# inferCNV
+# inferAMP
 Genome scale copy number inference from discrete reports of gene-level amplifications on somatic cancer NGS testing reports
 
-A working version of the web implementation is at http://infercnv.org
+A working version of the web implementation is at http://inferamp.org
+
+Note: The code was initially named inferCNV but changed name to inferAMP on 6/10/2019 when we determined that the other name was alread in prior use.
 
 Two directories are provided:
 
