@@ -20,7 +20,7 @@ Additional files are provided for use with the google app engine including app.y
 
 Command line implementation:
 
-inferCNVv2.py
+inferAMPv2.py
 
 Both directories contain the necessary input files:
 
