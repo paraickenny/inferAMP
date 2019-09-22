@@ -3,7 +3,7 @@ Genome scale copy number inference from discrete reports of gene-level amplifica
 
 A working version of the web implementation is at http://inferamp.org
 
-Note: The code was initially named inferCNV but changed name to inferAMP on 6/10/2019 when we determined that the other name was alread in prior use.
+Note: The code was initially named inferCNV but changed name to inferAMP on 6/10/2019 when we determined that the other name was already in prior use.
 
 Two directories are provided:
 
@@ -28,6 +28,7 @@ coordinates.txt hg38 coordinates of genes from human genome
 
 COSMIC.txt list of genes recurrently altered in cancer from COSMIC database
 
-foundationone.txt list of genes reported on Foundation One genomic assay (note this project is not affiliated with Foundation Medicine in any way).
+foundationone.txt list of genes reported on Foundation One genomic assay (note this project is not affiliated with Foundation Medicine or other test vendors in any way).
 
+Other files ending in .txt list genes reported in genomic assays corresponding to the filename.
 
