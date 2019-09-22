@@ -39,9 +39,9 @@ handlers:
   static_files: www/index.html
   upload: www/index.html
 
-- url: /circa-infercnv.jpg
-  static_files: www/circa-infercnv.jpg
-  upload: www/circa-infercnv.jpg
+- url: /inferamp.jpg
+  static_files: www/inferamp.jpg
+  upload: www/inferamp.jpg
 
 
 # Third party libraries that are included in the App Engine SDK must be listed

@@ -2,21 +2,41 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>InferCNV query page</title>
+<title>InferAMP query page</title>
 </head>
 <body>
-<p><h1> InferCNV - inferring genome-wide copy number changes from NGS reports</h1></p>
-<p>Optimized for Foundation One reports from Foundation Medicine</p>
-<p>Note: This project is not related to Foundation Medicine in any way. </p>
+<p><h1> InferAMP - inferring genome-wide amplicon boundaries from cancer NGS reports</h1></p>
+<a>Optimized for Foundation One reports from Foundation Medicine.<br>
+Gene lists included for other major test vendors. Larger gene panels will give more refined amplicon boundaries.<br>
+    The tool has been described in the following <a href = "https://f1000research.com/articles/8-807"> publication. </a>
+<p>Note: This project is not related to or endorsed by any of the listed test vendors in any way. </p>
 <p> Enter genes list below (include any amplifications reported as equivocal and unknown significance):<br>
 	e.g. HRAS, EGFR, ERBB2 </p>
 
 	RESEARCH USE ONLY<br><br>
-	<form action="https://infercnv.org/evaluate?" method="get">
+	<form action="https://inferamp.org/evaluate?" method="get">
 	  <label for="textfield">Enter Genes:</label>
       <input name="query" type="text" id="query" size="100">
+        <p></p>
+        <input type="radio" name="test" value="FoundationOne" checked> Foundation One
+        <input type="radio" name="test" value="FoundationCdx"> Foundation CDx
+        <input type="radio" name="test" value="TempusXT"> Tempus XT
+        <input type="radio" name="test" value="Oncomine-v3"> Oncomine v3
+        <P></P>
+        <input type="radio" name="test" value="Caris-MI"> Caris MI profile
+        <input type="radio" name="test" value="Trusight170"> Trusight 170
+        <input type="radio" name="test" value="Trusight500"> Trusight 500
+        <input type="radio" name="test" value="STRATA-NGS"> STRATA-NGS
+        <input type="radio" name="test" value="custom"> Custom assay (enter one gene per line in box below)
+        <p></p>
+        <textarea name="custom" rows="10" cols="30"></textarea>
+        <p></p>
+        <input type="checkbox" name="verbose" value="verbose"> Select for verbose output
+        <p></p>
+
 	  <input type="submit" name="submit" id="submit" value="Submit">
+        <p></p>
 	</form>
-<img src="circa-infercnv.jpg" width="800" height="800" alt=""/>
+<img src="inferamp.jpg" width="800" height="240" alt=""/>
 </body>
 </html>
